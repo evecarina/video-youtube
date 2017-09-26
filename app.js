@@ -10,8 +10,10 @@ class Youtube {
       searchTerm: "iPhone X"
       };
       /*arrow function necesario*/
+      this.youtubeSearch("iPhone X");
       $('#video-search').click(()=>{
          let videoAct = $('#input-data').val();
+          $("#root").empty();
          console.log(videoAct);
          this.youtubeSearch(videoAct);
       });
