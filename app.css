@@ -217,10 +217,22 @@ body {
     color: #fafafa;
     cursor: pointer;
   }
+.sec_buscar{
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	/*left: 0; */
+	top: 0;
+  height: 50px;
+  position: fixed;
+  z-index: 1;
+  background-color: #010101;
 
+  }
+.sec_buscar img{
+margin-left: 15%;
+}
 .div_buscar{
    position: absolute;
-   top: 3%;
+   top: 10%;
    left: 25%;
    height: 10%;
 }
@@ -234,8 +246,16 @@ body {
 }
 #div_vprincipal{
     margin-top: 5%;
-    /*margin-left: 5%;*/
-    margin-right: 5%;
+    /*margin-right: 5%;*/
+}
+#div_vprincipal iframe{
+  position: absolute;
+right: 0;
+}
+.sec_reproducion{
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 /*en pantalla inferior menor a 700*/
 @media screen and (max-width:700px){

@@ -18,20 +18,29 @@
    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <section class="sec_buscar">
+  <section class=" row sec_buscar">
+    <div class="clas-lg-6">
+      <img src="img/tube.png" alt="" width="100px">
+    </div>
   <div class="col-lg-6 div_buscar">
    <div class="input-group">
-     <input type="text" class="form-control">
+     <input type="text" class="form-control" id="input-data">
      <span class="input-group-addon">
-       <span class="glyphicon glyphicon-search" ></span>
+       <span class="glyphicon glyphicon-search " id="video-search"></span>
      </span>
    </div>
  </div>
 </section>
-<div class="col-lg-8" id="div_vprincipal">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/85MppyLJHz0?disablekb=1" allowfullscreen></iframe>
-</div>
-<div class="col-lg-2" id='root'> </div>
+<section class="sec_reproducion">
+  <div class="row">
+    <div class="col-lg-8" id="div_vprincipal">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/85MppyLJHz0?disablekb=1" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-4" id='root'>
+    </div>
+  </div>
+</section>
+
 
 
   <!-- <div class="container">
