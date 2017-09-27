@@ -244,13 +244,19 @@ margin-left: 15%;
 #root{
   margin-top: 5%;
 }
+#root img{
+  width:70%;
+}
 #div_vprincipal{
-    margin-top: 5%;
+    margin-top: 6%;
+    height: 400px;
     /*margin-right: 5%;*/
 }
 #div_vprincipal iframe{
-  position: absolute;
-right: 0;
+  /*position: absolute;
+right: 0;*/
+width: 100%;
+height: 100%;
 }
 .sec_reproducion{
   margin-top: 2%;
